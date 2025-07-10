@@ -7,14 +7,15 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    width: 100vw;
-    height: 100vh;
 }
 
-
+header {
+    position: fixed;
+    background-color: white;
+    z-index: 2;
+}
 
 header .topo {
-    width: 98vw;
     display: flex;
     align-items: center;
     padding: 15px;
@@ -27,6 +28,21 @@ header .topo {
     margin: 0;
     padding-left: 100px;
     margin-right: 0px;
+}
+
+.topo h1 {
+    position: relative;
+    left: -490px;
+    bottom: 2px;
+
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+    
+}
+
+.topo h1 span {
+    font-weight: 400;
+    color: red;
 }
 
 .topo nav {
@@ -60,3 +76,56 @@ header .topo {
 .topo .icons .search {
     padding-right: 15px;
 }
+
+#principal {
+    padding-top: 200px;
+    padding-left: 120px;
+    padding-bottom: 150px;
+
+    border-bottom: 1px solid rgba(145, 4, 4, 0.664);
+}
+
+#principal .texto {
+    width: 600px;
+}
+
+#principal h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#principal .texto p {
+    padding-top: 20px;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+#principal .saiba {
+    width: 200px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: red;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+#principal .imagem {
+    float: right;
+    position: relative;
+    bottom: 550px;
+    left: -300px;
+}
+
+#principal img {
+    width: 400px;
+}
+
+
+
+
+
