@@ -109,7 +109,7 @@ main {
 }
 
 #about {
-    max-width: 1370px;
+    
     margin-top: 300px;
 }
 
@@ -131,6 +131,7 @@ main {
     margin-left: 150px;
     border-radius: 10px;
     margin-bottom: 200px;
+    margin: auto;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -183,7 +184,6 @@ main {
 }
 
 #produtos {
-    max-width: 1370px;
     margin-top: 300px;
 }
 
@@ -201,9 +201,9 @@ main {
 #produtos article {
     
     height: 930px;
-    margin-left: 150px;
     border-radius: 10px;
     margin-bottom: 200px;
+    margin: auto;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -216,6 +216,7 @@ main {
     border: 1px red solid;
     text-align: center;
     padding: 50px;
+    
 }
 
 
@@ -259,6 +260,57 @@ main {
 #produtos article div .button3 p {
     font-size: 16px;
     color: black;
+}
+
+#clientes {
+    text-align: center;
+}
+
+#clientes h1  { 
+    margin-top: 300px;
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+
+#clientes h1 span {
+    color: red;
+}
+
+#clientes article {
+    display: flex;
+    
+}
+
+#clientes article .box {
+    width: 400px;
+    border: 1px red solid;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#clientes article .box p {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#clientes article .box .pic {
+    border-radius: 50%;
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+#clientes article .box h2 {
+    padding-bottom: 20px;
+}
+
+#clientes article .box .stars {
+    padding-bottom: 20px;
+}
+
+#clientes .box .nota {
+    width: 150px;
 }
 
 
