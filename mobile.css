@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+    header {
+        padding-left: 0;
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    #principal {
+        display: grid;
+        grid-auto-flow: row;
+    }
+}
